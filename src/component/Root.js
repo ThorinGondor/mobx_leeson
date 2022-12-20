@@ -26,7 +26,7 @@ class RootStore {
 
 
 /**
- * 下面这一块的导出 是样板业务代码 无需考虑为何会这么复杂
+ * 下面这一块的导出 是样板业务代码 无需考虑为何会这么复杂，不过可以了解一下
  * @type {RootStore}
  */
 const rootStore = new RootStore()

@@ -7,8 +7,9 @@ Mobx介绍：
     (1) 定义一个类，定义数据状态(state)
     (2) 数据响应格式处理
     (3) 定义 action 函数
-    (4) 实例化并到处实例
+    (4) 实例化并导出实例
 4. Mobx 模块化：
     (1) 拆分Count和List模块，每个模块定义自己独立的state/actions
     (2) 在 store/Root.js 导入拆分之后的模块，进行模块组合
     (3) 使用 React 的 useContext 机制，导出 useStore 方法，供业务组件统一使用
+    (4) mobx-react-lite 作为链接包，导出 observer 方法，包裹函数组件

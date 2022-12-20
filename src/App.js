@@ -18,7 +18,7 @@ function App() {
         </div>
     )
 }
-// 3. 中间件包裹 App
+// 3. 中间件包裹 App（只能是函数组件）
 export default observer(App)
 
 // 这么一看，mobx 非常像Java，先用 mobx 创建一个对象，有自己的属性、修改方法(Counter.js 的 addCount、addList 方法)、获取方法(计算属性 mobx-computed: get func(){...})，然后 React 可以操作对象
